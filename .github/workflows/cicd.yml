@@ -3,6 +3,8 @@ name: HTML CI/CD Pipeline
 on:
   push:
     branches: [main]
+    paths:
+      - '**.html'
 
 permissions:
   contents: read
