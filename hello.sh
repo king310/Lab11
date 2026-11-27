@@ -1,5 +1,5 @@
 #!/bin/bash
-echo "running hello script"
+echo "running hello script v2"
 if [ $# -eq 1 ]
 then
   echo "hi $1"
